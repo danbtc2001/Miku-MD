@@ -164,7 +164,8 @@ ${metadata.desc}
     caption: mikutext,
     footer: `${global.BotName}`,
     headerType: 4,
-    }
+    
+    /*
 Miku.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
@@ -180,8 +181,8 @@ We hope he/she wont come back here!
     caption: mikutext,
     footer: `${global.BotName}`,
     headerType: 4,
+    */
     
-    }
     Miku.sendMessage(anu.id, buttonMessage)}}
             } catch (err) {
                 console.log(err)
